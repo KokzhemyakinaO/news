@@ -1,0 +1,63 @@
+{
+	"news":[
+			 {	 "tittle": "Top 5 savoury recipes to cook with kids",
+				 "pic": "cook.jpg",
+				 "author": "0",
+				 "shortdescr": "Get your kids excited about cooking – and eating – by making easy savoury meals together.",
+				 "fulldescr": "Making this recipe is as much fun as the name suggests. Little ones get to squash and squeeze cherry tomatoes in a bowl then snip or rip up fistfuls of soft herbs. Teach them how to cook different pasta shapes then mix in the sauce, grate over cheese and drizzle with olive oil. A quick and tasty vegetarian dinner for you and your little foodies.",
+				 "date": "September 1, 2016 10:29:22 AM"
+			 },
+			 {	"tittle": "Trade war threatens global economic",
+				 "pic": "economic.jpg",
+			 	"author": "0",
+			 	"shortdescr": "The international economic forum says while US tax cuts will aid world growth, its protectionist policies put recovery at risk.",
+			 	"fulldescr": "In its latest forecasts, the Organisation for Economic Cooperation and Development (OECD) raised its world growth expectations for both 2018 and 2019 to 3.9% - the highest since 2011 - from a previous estimate of 3.6%.",
+			 	"date": "September 2, 2016 1:29:22 PM"
+			 },
+			 {	"tittle": "Sky Views",
+				 "pic": "sky.jpg",
+			 	"author": "1",
+			 	"shortdescr": "According to the South Korean officials who met him in Pyongyang.",
+			 	"fulldescr": "This has been portrayed as proof that the Trump administration's maximum pressure campaign is working, that sanctions and threats have forced the young dictator to his knees, but in truth, this is not exactly new.Kim Jong Un's father, Kim Jong Il, also liked to talk about his willingness to give up nukes. ",
+			 	"date": "October 3, 2017 1:29:20 PM"
+			 },
+			 {	"tittle": "Package bombing",
+				 "pic": "boom.jpg",
+			 	"author": "2",
+			 	"shortdescr": "The explosions come as hundreds of thousands of people descend on the city for the South By Southwest festival.",
+			 	"fulldescr": "Officers in Austin spoke about the attacks following two explosions on Monday. Just hours after a package bomb killed a teenager and wounded a woman, police were called to deal with another blast elsewhere in the city. Detectives are linking the incidents to a similar bombing in the city earlier in March, in which a 39-year-old man was killed.",
+			 	"date": "June 2, 2018 17:09:14 PM"
+			 },
+			 {	"tittle": "Crocodile invasion",
+				 "pic": "crocodile.jpg",
+			 	"author": "2",
+			 	"shortdescr": "One man also claims on social media that there have been sightings of bullsharks after days of heavy rain.",
+			 	"fulldescr": "Bonnie Leighty posted on the site: Already declared a disaster zone due to flooding, now faces a crocodile invasion... No swimming folks!! Stephen Solomons added: And bullsharks. There have been sightings of bullsharks as well. I'd hate to be stuck in that flood. Queensland's environment department urged people in the disaster zone to report all crocodile sightings.Crocodiles and snakes may turn up in unexpected places as a result of the heavy rainfall and flooding in parts of North Queensland, it said.",
+			 	"date": "June 22, 2018 6:11:22 PM"
+			 },
+			 {	"tittle": "Crumb-proof technology",
+				 "pic": "apple.jpg",
+			 	"author": "0",
+			 	"shortdescr": "The technology giant has filed a patent for keyboard designs that would stop dirt and crumbs from becoming lodged under buttons.",
+			 	"fulldescr": "Digging out remnants of your lunch - or a cheeky mid-morning biscuit - from your keyboard could become a thing of the past, with the patent describing different keyboard designs which will prevent contaminant ingress. Skirts or flaps could be used to protect the edges of keys - similar to the spraydeck of a kayak. Other designs show brushes or wipers used to keep keys clean.",
+			 	"date": "Septemder 1, 2018 1:20:22 PM"
+			 }
+		],
+	"authors":[
+			{	"id": 0,
+                "name": " Robert",
+				"surname": "Downey",
+				"avatar": "images/dauni.jpg"
+			},
+			{	"id": 1,
+                "name": "Bradley",
+				"surname": "Pitt",
+				"avatar": "images/pitt.png"
+			},
+			{	"id": 2,
+                "name": "Angelina",
+				"surname": "Jolie",
+				"avatar": "images/joli.jpg"
+			}
+		]
+}

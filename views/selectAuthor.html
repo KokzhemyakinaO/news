@@ -1,0 +1,37 @@
+<div>
+	<div class="options-block row">
+		<div class="col-xs-6">
+			<a href="#/allnews">NEWS</a>
+		</div>
+	</div>
+
+	<div class="author-block row">
+		<div class="col-xs-11 col-sm-10 col-md-7">
+			<div class="col-xs-3 avatar">
+				<div style="background-image: url('{{oneAuthors.avatar}}')"></div>
+			</div>
+			<div class="col-xs-9 name">
+				<div class="">{{oneAuthors.name }}</div>
+				<div class="">{{oneAuthors.surname}}</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-5 col-sm-3 bord">
+			The Latest from {{ oneAuthors.name }}
+		</div>
+	</div>
+
+	<div class="news row">
+		<div ng-repeat="news in allNews" class="col-xs-11 col-sm-10 col-md-7" ng-show="news.author == {{oneAuthors.id}}">
+			<div class="col-xs-3" style="background-image: url('images/{{news.pic}}')"><a href="#/news/{{$index}}"></a></div>
+			<div class="col-xs-9">
+				<div class="news-tittle col-xs-12"><a href="#/news/{{$index}}">{{news.tittle}}</a></div>
+				<div class="desc col-xs-12">{{news.shortdescr}}</div>
+				<div class="date col-xs-5">{{news.date | date:'MMM d, y h:mm:ss a'}}</div>
+			</div>
+		</div>
+	</div>
+
+</div>

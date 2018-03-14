@@ -1,0 +1,29 @@
+<div>
+
+	<div class="options-block row">
+		<div class="col-xs-6">
+			<a href="#/allnews">NEWS</a>
+		</div>
+		<div class="col-xs-6">
+			<button class="add" ng-click="openPopUp()">Add news</button>
+		</div>
+	</div>
+
+	<pop-up></pop-up>
+
+	<div class="news row">
+		<div ng-repeat="news in allNews" class="col-xs-11 col-sm-10 col-md-7">
+			<div class="col-xs-3" style="background-image: url('images/{{news.pic}}')"><a href="#/news/{{$index}}"></a></div>
+			
+			<div class="col-xs-9">
+				<div class="news-tittle col-xs-12"><a href="#/news/{{$index}}">{{news.tittle}}</a></div>
+				<div class="desc col-xs-12">{{news.shortdescr}}</div>
+				<div class="date col-xs-5">{{news.date | date:'MMM d, y h:mm:ss a'}}</div>
+				<div class="author col-xs-3">
+					by <a href="#/author/{{news.author}}">{{allAuthors[news.author].surname}}</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

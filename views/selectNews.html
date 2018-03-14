@@ -4,8 +4,11 @@
 			<a href="#/allnews">NEWS</a>
 		</div>
 	</div>
-
-	<div class="row news-page">
+	<div class="spinner" ng-if="!oneNews">
+		<div class="double-bounce1"></div>
+		<div class="double-bounce2"></div>
+	</div>
+	<div class="row news-page" ng-if="oneNews">
 		<div class="col-xs-12 tittle">{{oneNews.tittle}}</div>
 		<div class="col-xs-12 surname">by <a href="#/author/{{oneNews.author}}">{{allAuthors[oneNews.author].surname}}</a></div>
 		<div class="col-xs-12 date">{{oneNews.date | date:'MMM d, y h:mm:ss a'}}</div>

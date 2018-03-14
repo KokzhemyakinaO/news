@@ -48,7 +48,7 @@
                         </td> 
                     </tr><tr> 
                         <td>Image</td> 
-                        <td><input ng-model="news.pic" type="file" pop-up value="news.png"/></td> 
+                        <td><input ng-model="news.pic" name="news-img" type="file" pop-up value="news.png"/></td> 
                     </tr> 
                     </table> 
                     </fieldset> 
@@ -59,6 +59,7 @@
             controller: function($scope) {
                 $scope.addnews = function(news, addForm){
                     if(addForm.$valid){
+
                         if(!$scope.news.pic) {
                             $scope.news.pic = "news.png";
                         }
@@ -77,7 +78,7 @@
                             "date": $scope.news.date
                         };
 
-                        valuesService.insertData(obj);
+                        valuesService.createNews(obj);
 
                         $scope.showPopUpMsg = false;
                     }
@@ -96,8 +97,8 @@
             },
             link: function ($scope, element, attrs) {
                 element.on('change', function  (evt) {
-                    if(evt.target.className == "ng-pristine ng-valid") {
-                            $scope.news.pic = evt.target.files[0].name;
+                    if(evt.target.name == "news-img") {
+                        $scope.news.pic = evt.target.files[0].name;
                     }
                 });
 

@@ -7,7 +7,6 @@
   },
   "scripts": {
     "prestart": "npm install"
-//    "start": "http-server -a localhost -p 8000 -c-1 app"
   },
   "dependencies": {
     "express": "^4.16.3"

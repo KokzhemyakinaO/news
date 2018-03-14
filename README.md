@@ -1,6 +1,24 @@
+## how to run project
+
+
+* clone from git
 `git clone git@gitlab.com:serverscom/test-project.git`
+
+* install npm libraries
+
 `npm install`
-`npm install less`
+
+* run server
+
+`npm start`
+
+* open browser 
+
+`http://localhost:8000`
+
+* see demo
+
+`https://newsmodule.herokuapp.com`
 
 
 ## server requirements
